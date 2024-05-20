@@ -1,9 +1,9 @@
 
 # Windows Driver pack for LGE sm8150 devices
 
-This repository contains driver binary files for LGE sm8150 devices, including (currently) G8X (mh2lm) and G8S(betalm).
-All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
+This repository contains driver binary files for LGE sm8150 devices, including (currently) G8X (mh2lm) and G8S(betalm). All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
+These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
 These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000!
 
 ## Resources
@@ -11,65 +11,25 @@ These driver files are based on @gus33000 's drivers for Surface Duo. Huge thank
 ## Copyright, License, Disclaimers and end user license agreement
 
 **Below notice must be present in all redistributed portions of this software**
-```
-Copyright (c) 2017-2022 WOA-Project
 
-Copyright (c) 2011-2020 Qualcomm Incorporated
+Please see [LICENSE](LICENSE.md)
 
-Copyright (c) 2019-2022 Microsoft Corporation
-
-This repository contains binary files sourced from Qualcomm Snapdragon 8cx laptops/tablets as well as the Surface Duo original android firmware. As some mistakes may exist, we cannot provide warranty of any kind. 
-
-- By installing this driver pack, you agree that any damage done to your phone or any loss of data is your entire responsibility and we cannot be taken responsible for data loss if it ever happens. We believe however this driver pack is safe to install. Try at your own risk!
-
-
-The above copyright notice and this permission notice shall be included in all
-
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-
-SOFTWARE.
-```
 ## Installing manually
 
 For preserving charset encoding, please checkout with using:
 
 ```
-git clone -c core.autocrlf=false https://github.com/MollySophia/LGE-sm8150-Drivers
+git clone -c core.autocrlf=false https://github.com/WOA-Project/SurfaceDuo-Drivers
 ```
 
-## DriverUpdater
-This repo includes the official released binaries of [DriverUpdater](https://github.com/WOA-Project/DriverUpdater) for convenience.
+---
 
-```
-Copyright (c) 2017-2021, The LumiaWOA Authors
+_**© 2020-2024 The Duo WOA Authors**_
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+_Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the Microsoft Corporate Logo, Windows, Surface, Surface Duo, Windows Hello, Continuum, Hyper-V, and DirectX are registered trademarks of Microsoft Corporation in the United States. Android is a registered trademark of Google LLC. Miracast is a registered trademark of the Wi-Fi Alliance. Other binaries may be copyright Qualcomm Incorporated and Microsoft Surface._
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+_**Limited emergency calling**_
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+_Running Windows on your Surface Duo is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
+
+_**Hello from Seattle (US), France, Italy.**_
