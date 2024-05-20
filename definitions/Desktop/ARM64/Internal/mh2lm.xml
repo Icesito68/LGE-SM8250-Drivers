@@ -33,6 +33,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.MH2LM\Extensions\Audio\Device" Name="G8X_auddevext.inf" ID="G8X_auddevext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.MH2LM\Extensions\BatteryCurrentLimiter" Name="qcfgbclext8150.inf" ID="qcfgbclext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.MH2LM\Extensions\Bluetooth" Name="G8X_btext.inf" ID="G8X_btext"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.MH2LM\Extensions\Cellular" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.MH2LM\Extensions\HexagonLoader" Name="G8X_pilext.inf" ID="G8X_pilext"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.MH2LM\Extensions\Subsystems" Name="G8X_mcfg.inf" ID="G8X_mcfg"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.MH2LM\Extensions\Subsystems" Name="G8X_subextadsp.inf" ID="G8X_subextadsp"/>
@@ -61,6 +62,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\PMIC" Name="qcpmic8150.inf" ID="qcpmic8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\PMIC" Name="qcpmicapps8150.inf" ID="qcpmicapps8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\PMIC" Name="qcpmicchgfg8150.inf" ID="qcpmicchgfg8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\PMIC" Name="qcpmicEIC8150.inf" ID="qcpmicEIC8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\PMIC" Name="qcpmicext8150.inf" ID="qcpmicext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\PMIC" Name="QcPmicGlink8150.inf" ID="QcPmicGlink8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\PMIC" Name="qcpmicgpio8150.inf" ID="qcpmicgpio8150"/>
@@ -85,7 +87,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Battery" Name="qcpmicEIC8150.inf" ID="qcpmicEIC8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Camera" Name="qccamjpege_ffu8150.inf" ID="qccamjpege_ffu8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Drivers\Camera" Name="qccammipicsi8150.inf" ID="qccammipicsi8150"/>
@@ -128,15 +129,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Extensions\PowerManagement" Name="qcpepextension8150.inf" ID="qcpepextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\Libraries\Cellular" Name="qcWMRil8150.inf" ID="qcWMRil8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE\Source\ProvisioningPkgs" Name="qcppmsettings8150.inf" ID="qcppmsettings8150"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qcadb.inf" ID="qcadb"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qcfilter.inf" ID="qcfilter"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qcmdm.inf" ID="qcmdm"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qcnet.inf" ID="qcnet"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qcser.inf" ID="qcser"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qcwdfmdm.inf" ID="qcwdfmdm"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qcwdfser.inf" ID="qcwdfser"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qcwwan.inf" ID="qcwwan"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\QCOM\EDL" Name="qdbusb.inf" ID="qdbusb"/>
         </BaseDriverPackages>
     </Drivers>
     <AppX>
